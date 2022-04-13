@@ -1,38 +1,62 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.main-div {
   text-align: center;
+  height: 100vh;
+  background-color: rgb(2, 2, 56);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.doc-image{
+  width: 150px;
+  padding-top: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.child-div{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.addItems{
+  margin-top: 15px;
+  display: inline-block;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  
+ 
 }
+.addItems input {
+  width: 250px;
+  height: 30px;
+  border: none;
+  font-size: larger;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.addItems input:focus {
+  outline: none;
+}
+.add-btn{
+    color: black;
+    padding: 0px 10px;
+}
+.showDetails{
+  
+  width: 15%;
+  margin: auto;
+  
+  color: black;
+  border-radius: 10px;
+ 
+}
+.eachItem{
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: beige;
+}
+.show{
+  margin-top: 10px;
+}
+.show button{
+  padding: 10px;
 }
